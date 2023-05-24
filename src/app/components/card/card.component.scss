@@ -1,0 +1,27 @@
+@import "../../allstyles.scss";
+
+.container {
+  background-image: url("/assets/background.jpeg");
+  background-size: cover;
+  border-radius: 5px;
+}
+
+img {
+  width: 10rem;
+  border-radius: 5px 5px 0 0;
+
+  &:hover {
+    filter: brightness(.8);
+    cursor: pointer;
+  }
+
+}
+
+.text {
+  padding: .5rem;
+}
+
+.sub {
+  font-size: .8rem;
+
+}

@@ -1,0 +1,14 @@
+@import "../../allstyles.scss";
+
+img {
+  max-width: 15rem;
+  background-color: lighten($color: $bgc, $amount: 5);
+
+  border-radius: 5px;
+
+  margin-top: 2rem;
+}
+
+.title {
+  margin-top: 3rem;
+}

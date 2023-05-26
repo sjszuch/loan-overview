@@ -1,0 +1,17 @@
+@import "../../allstyles.scss";
+
+.container {
+  background-color: darken($color: $bgc, $amount: 5);
+  padding: 1rem;
+  position: static;
+
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  background-color: lighten($color: $bgc, $amount: 5);
+  padding: .4rem;
+  border-radius: 15px;
+  text-decoration: none;
+}

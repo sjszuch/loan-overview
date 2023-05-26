@@ -1,9 +1,15 @@
 @import "../../allstyles.scss";
 
 .container {
-  background-image: url("/assets/background.jpeg");
-  background-size: cover;
   border-radius: 5px;
+  width: fit-content;
+
+  // Use this if there is a card background image
+  // background-image: url("/assets/background.jpeg");
+  // background-size: cover;
+
+  // Use this if using static color
+  background-color: #332424;
 }
 
 img {
